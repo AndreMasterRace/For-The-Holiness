@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: d6691e8bf33553a4ea1d553f04a76980
+timeCreated: 1481880779
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box001 1
+    100004: Box001 2
+    100006: Box002
+    100008: Box002 1
+    100010: Box002 2
+    100012: Box003
+    100014: Camera001
+    100016: Camera001.Target
+    100018: //RootNode
+    100020: cruz
+    100022: Cylinder001
+    100024: Direct001
+    100026: Direct001.Target
+    100028: estandarte
+    100030: Omni001
+    100032: PhysCamera001
+    100034: PhysCamera001.Target
+    100036: PhysCamera002
+    100038: PhysCamera002.Target
+    100040: placa
+    100042: Plane001
+    100044: Plane001 1
+    100046: Plane001_MeshPart0
+    100048: Plane001_MeshPart1
+    100050: Plane001_MeshPart2
+    100052: Plane001_MeshPart3
+    100054: Plane001_MeshPart4
+    100056: Plane001_MeshPart5
+    100058: Plane001_MeshPart6
+    100060: Plane001_MeshPart7
+    100062: Plane002
+    100064: Plane002_MeshPart0
+    100066: Plane002_MeshPart1
+    100068: Plane002_MeshPart2
+    100070: Plane002_MeshPart3
+    100072: Plane002_MeshPart4
+    100074: Plane002_MeshPart5
+    100076: Plane002_MeshPart6
+    100078: Plane002_MeshPart7
+    100080: Pyramid001
+    100082: Sphere002
+    400000: Box001
+    400002: Box001 1
+    400004: Box001 2
+    400006: Box002
+    400008: Box002 1
+    400010: Box002 2
+    400012: Box003
+    400014: Camera001
+    400016: Camera001.Target
+    400018: //RootNode
+    400020: cruz
+    400022: Cylinder001
+    400024: Direct001
+    400026: Direct001.Target
+    400028: estandarte
+    400030: Omni001
+    400032: PhysCamera001
+    400034: PhysCamera001.Target
+    400036: PhysCamera002
+    400038: PhysCamera002.Target
+    400040: placa
+    400042: Plane001
+    400044: Plane001 1
+    400046: Plane001_MeshPart0
+    400048: Plane001_MeshPart1
+    400050: Plane001_MeshPart2
+    400052: Plane001_MeshPart3
+    400054: Plane001_MeshPart4
+    400056: Plane001_MeshPart5
+    400058: Plane001_MeshPart6
+    400060: Plane001_MeshPart7
+    400062: Plane002
+    400064: Plane002_MeshPart0
+    400066: Plane002_MeshPart1
+    400068: Plane002_MeshPart2
+    400070: Plane002_MeshPart3
+    400072: Plane002_MeshPart4
+    400074: Plane002_MeshPart5
+    400076: Plane002_MeshPart6
+    400078: Plane002_MeshPart7
+    400080: Pyramid001
+    400082: Sphere002
+    2300000: Box001
+    2300002: Box001 1
+    2300004: Box001 2
+    2300006: Box002
+    2300008: Box002 1
+    2300010: Box002 2
+    2300012: Box003
+    2300014: Cylinder001
+    2300016: Plane001 1
+    2300018: Plane001_MeshPart0
+    2300020: Plane001_MeshPart1
+    2300022: Plane001_MeshPart2
+    2300024: Plane001_MeshPart3
+    2300026: Plane001_MeshPart4
+    2300028: Plane001_MeshPart5
+    2300030: Plane001_MeshPart6
+    2300032: Plane001_MeshPart7
+    2300034: Plane002_MeshPart0
+    2300036: Plane002_MeshPart1
+    2300038: Plane002_MeshPart2
+    2300040: Plane002_MeshPart3
+    2300042: Plane002_MeshPart4
+    2300044: Plane002_MeshPart5
+    2300046: Plane002_MeshPart6
+    2300048: Plane002_MeshPart7
+    2300050: Pyramid001
+    2300052: Sphere002
+    3300000: Box001
+    3300002: Box001 1
+    3300004: Box001 2
+    3300006: Box002
+    3300008: Box002 1
+    3300010: Box002 2
+    3300012: Box003
+    3300014: Cylinder001
+    3300016: Plane001 1
+    3300018: Plane001_MeshPart0
+    3300020: Plane001_MeshPart1
+    3300022: Plane001_MeshPart2
+    3300024: Plane001_MeshPart3
+    3300026: Plane001_MeshPart4
+    3300028: Plane001_MeshPart5
+    3300030: Plane001_MeshPart6
+    3300032: Plane001_MeshPart7
+    3300034: Plane002_MeshPart0
+    3300036: Plane002_MeshPart1
+    3300038: Plane002_MeshPart2
+    3300040: Plane002_MeshPart3
+    3300042: Plane002_MeshPart4
+    3300044: Plane002_MeshPart5
+    3300046: Plane002_MeshPart6
+    3300048: Plane002_MeshPart7
+    3300050: Pyramid001
+    3300052: Sphere002
+    4300000: Plane001_MeshPart0
+    4300002: Plane001_MeshPart1
+    4300004: Plane001_MeshPart2
+    4300006: Plane001_MeshPart3
+    4300008: Plane001_MeshPart4
+    4300010: Plane001_MeshPart5
+    4300012: Plane001_MeshPart6
+    4300014: Plane001_MeshPart7
+    4300016: Plane002_MeshPart0
+    4300018: Plane002_MeshPart1
+    4300020: Plane002_MeshPart2
+    4300022: Plane002_MeshPart3
+    4300024: Plane002_MeshPart4
+    4300026: Plane002_MeshPart5
+    4300028: Plane002_MeshPart6
+    4300030: Plane002_MeshPart7
+    4300032: Sphere002
+    4300034: Box001
+    4300036: Box002
+    4300038: Cylinder001
+    4300040: Pyramid001
+    4300042: Box001
+    4300044: Box002
+    4300046: Box002
+    4300048: Box003
+    4300050: Box001
+    4300052: Plane001
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
