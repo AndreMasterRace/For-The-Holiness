@@ -6,23 +6,21 @@ public class Aimbot : MonoBehaviour {
     public GameObject prefab;
     public float speed;
 
-    private Vector3 dir;
-    private GameObject projectile;
     private playerController pC;
-    private float time;
+    private Vector3 dir;
+    private Quaternion cannonRotation;
 
-	void Start()
+    void Start()
     {
         pC = new playerController();
-        projectile = (GameObject)Instantiate(prefab, transform.position, Quaternion.identity);
-        time = 0f;
+        dir = pC.GetPlayer().transform.position - transform.position;
+        cannonRotation = transform.rotation;
     }
 
     void Update()
     {
-        time += Time.deltaTime;
+        cannonRotation = Quaternion.LookRotation(dir);
 
-        dir = pC.GetPlayer().transform.position - transform.position;
-        projectile.transform.position += dir * speed;
+        transform.rotation = cannonRotation;
     }
 }

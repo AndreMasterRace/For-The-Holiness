@@ -9,26 +9,30 @@ public class playerController : MonoBehaviour {
 
     private Vector3 vr;
     private Vector3 movement;
-    private List<GameObject> bullets;
-    private List<Vector3> vBullets;
     private GameObject cannon;
     private Quaternion cannonRotation;
+    private Dictionary<GameObject, Vector3> bullets;
 
     private float x;
     private float y;
 
+    private float time;
+
     void Start()
     {
-        bullets = new List<GameObject>();
-        vBullets = new List<Vector3>();
+        bullets = new Dictionary<GameObject, Vector3>();
         vr = new Vector3(0, 0, 20);
         cannon = GameObject.FindGameObjectWithTag("cannon");
+        time = 1.5f;
         cannonRotation = cannon.transform.rotation;
+
         x = cannonRotation.eulerAngles.x;
         y = cannonRotation.eulerAngles.y;
+
+        Physics.IgnoreLayerCollision(8, 9, true);
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (Input.GetKey(KeyCode.W))
         {
@@ -62,31 +66,23 @@ public class playerController : MonoBehaviour {
             x += 0.5f;
         }
 
-        x = Mathf.Clamp(x, -60, -30);
+        x = Mathf.Clamp(x, -60, 0);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && time >= 1.5f)
         {
-            vBullets.Add(cannon.transform.forward);
-        }
-        else if (Input.GetKey(KeyCode.Space))
-        {
-            vBullets[vBullets.Count - 1] *= 1.1f;
+            bullets.Add((GameObject)Instantiate(prefab, transform.position, Quaternion.identity), cannon.transform.forward);
+            time = 0f;
         }
 
-        if (Input.GetKeyUp(KeyCode.Space))
+        foreach (GameObject go in bullets.Keys)
         {
-            InstantiateBullet();
+            go.transform.position += bullets[go];
         }
-
-
 
         cannonRotation = Quaternion.Euler(x, y, 0);
         cannon.transform.rotation = cannonRotation;
-    }
 
-    void InstantiateBullet()
-    {
-        bullets.Add((GameObject)Instantiate(prefab, cannon.transform.position, Quaternion.identity));
+        time += Time.deltaTime;
     }
 
     public GameObject GetPlayer()
