@@ -89,4 +89,9 @@ public class playerController : MonoBehaviour {
     {
         return GameObject.FindGameObjectWithTag("Player");
     }
+
+    public GameObject GetCannon()
+    {
+        return GameObject.FindGameObjectWithTag("cannon");
+    }
 }
